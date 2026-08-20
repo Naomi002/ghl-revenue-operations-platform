@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production build
+dist
+dist-ssr
+*.local
+
+# Environment variables (CRITICAL: NEVER COMMIT API KEYS)
+.env
+.env.local
+.env.production
+.env.development
+
+# Editor & System
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
